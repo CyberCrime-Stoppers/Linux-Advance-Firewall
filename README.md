@@ -10,5 +10,4 @@ Huge things coming for linux and the firewalls will be more customizable and mor
 network security to what with groups/users. great tool for business and small-businesses and home/home-lab users 
 
 
-goal to build a native app and also a proper web UI, also options for users to build their username, and only passwordless and 2nd-Authentication system, whether that is locally through a intranet controlled and built by the users like you meaning, no phoning home or a direct company has any say on how its setup or used, not even the World Wide web cant login or have access to other users login UI, through the internet, plain old 
-###(Intranet)
+Goal: Build a native app and a proper web UI, with options for users to create their own login screen and hosted your personal servers usernames and use passwordless and second-factor authentication. Everything runs locally through a user-controlled intranet — no phoning home, no direct company oversight on how it's set up or used. Not even the World Wide Web can log in or access another user's login UI through the Internet. Plain old Intranet.
