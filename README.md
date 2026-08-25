@@ -1,7 +1,7 @@
 # Linux-Advance-Firewall
 Advanced Linux Firewall - For I.Ts - whether that is for business/small business or Home Users, just want more with their firewall &amp; security..
 
-support me giving me ideas. developer.on.opensource@unixinbox.com
+support me giving me ideas. give-me-ideas@mailservices2.simplelogin.com
 
 ## its not quite finished yet, there are no proper interface yet localhost/::8080
 ### also building permissions in order for users to get proper admin controls on their machine locally and/or having an option through a web-browser as default.
