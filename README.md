@@ -12,3 +12,20 @@ network security signed to specific groups/users of your chosen. great tool for 
 
 
 Goal: Build a native app and a proper web UI, with options for users to create their own login screen and hosted their personal servers not limited too, usernames and passwordless system and second-factor authentication. Everything runs locally through a user-controlled intranet — no phoning home, no direct company oversight on how it's set up or used. Not even the World Wide Web can log in or access another user's login UI through the Internet. Plain old Intranet.
+
+
+Ubuntu/Debian:
+
+sudo apt-get install gcc libsqlite3-dev
+
+
+System-Level Dependencies (Install on Your Machine)
+These are programs you need installed before the project will work:
+
+#Dependency				                           	#Purpose							                                    #Install Command (Ubuntu/Debian)
+<span>Go (1.21+)</span>			            	    <span>Compiles and runs the server</span>	  	    	      <span>sudo apt install golang-go (you already have this via snap)</span>	
+<span>gcc / build-essential</span>		        <span>Compiles the SQLite C bindings</span>		            <span>sudo apt install build-essential</span>	
+<span>libsqlite3-dev</span>			              <span>SQLite development headers</span>				            <span>sudo apt install libsqlite3-dev</span>	
+<span>nftables (kernel-side)</span>		        <span>The actual firewall — Linux kernel ≥ 3.13</span>	  <span>Already built into modern kernels</span>	
+<span>root / CAP_NET_ADMIN</span>		          <span>Permission to talk to the kernel firewall</span>	  <span>sudo when running the server</span>	
+<span>Node.js + npm (frontend only)</span>	  <span>Runs the React dev server</span>				            <span>sudo apt install nodejs npm</span>	
